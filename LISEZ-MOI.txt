@@ -1,0 +1,41 @@
+PORTFOLIO LUXE — FIFALIANA
+===========================
+
+CONTENU DU PROJET
+- index.php : structure HTML et traitement du formulaire côté serveur.
+- style.css : design complet, couleurs, typographie, cartes, effets et responsive.
+- script.js : menu mobile, animations au défilement et navigation active.
+- EXPLICATIONS.md : explication des principaux blocs de chaque fichier.
+
+INSTALLATION
+1. Décompresse Portfolio_Luxe_Fifaliana.zip.
+2. Place le dossier dans ton répertoire de projets, par exemple :
+   C:\Projet\Portfolio_Luxe_Fifaliana
+3. Dans PhpStorm, ouvre le dossier contenant index.php.
+4. Vérifie PHP dans Terminal avec : php -v
+5. Si PHP est disponible, lance dans le terminal situé dans le dossier du projet :
+   php -S localhost:8000
+6. Garde le terminal ouvert et ouvre Chrome à l'adresse :
+   http://localhost:8000
+
+IMPORTANT POUR LOCALHOST
+- PhpStorm est un éditeur, pas un serveur web permanent.
+- L'adresse http://localhost/ sans port fonctionne seulement si un serveur web
+  comme Apache est installé et démarré.
+- Avec le serveur PHP intégré, utilise http://localhost:8000.
+- Si « php n'est pas reconnu », il faut installer/configurer PHP avant de lancer.
+
+PERSONNALISATION
+Dans index.php, modifie les variables $nom et $titre pour changer le nom et le titre.
+Remplace les projets d'exemple par tes vrais projets.
+Remplace les coordonnées fictives si tu souhaites afficher tes contacts réels.
+
+FORMULAIRE
+Le formulaire valide les champs et affiche un message de confirmation.
+Il n'envoie pas encore d'e-mail. Pour envoyer réellement les messages, il faut
+configurer une solution côté serveur (SMTP ou service de formulaire) et protéger
+le traitement contre le spam.
+
+POLICES
+Le projet charge DM Sans et Manrope depuis Google Fonts. Une connexion Internet
+est nécessaire pour ces polices ; sinon le navigateur utilise une police de secours.
